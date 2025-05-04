@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "MailCraft",
+  "description": "An AI-powered chatbot for professional email writing and general queries.",
+  "version": "1.0",
+  "permissions": ["activeTab", "storage", "scripting"],
+  "host_permissions": [
+    "https://generativelanguage.googleapis.com/*"
+  ],
+  "action": {
+    "default_popup": "index.html"
+    
+  }
+
+}
