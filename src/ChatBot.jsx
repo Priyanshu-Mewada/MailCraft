@@ -6,7 +6,7 @@ import Header from "./Header";
 const ChatBot = () => {
   const URL =
     "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=";
-  const API_KEY = "AIzaSyCVIDIw7UTYc-8HuL3yyOQQw7N-qwEh7ug";
+  const API_KEY = /*Enter Your GEMINI API KEY*/;
 
   const [inputData, setInputData] = useState("");
   const [messages, setMessages] = useState([]);
